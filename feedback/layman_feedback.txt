@@ -12,3 +12,7 @@ Ahoy, crew! This is Anil, your captain. I'm adding my thoughts here as we build 
 
 - Tested the dashboard on May 14, 2025. It seems fine and easy to use, like a captain giving orders. The prompt "Enter project:" feels good.
 - The text area could be bigger to make typing easier, like a larger captain's logbook.
+
+
+- Tested the dashboard on May 14, 2025. It seems fine and easy to use, like a captain giving orders. The prompt "Enter project:" feels good.
+- The text area could be bigger to make typing easier, like a larger captain's logbook.
