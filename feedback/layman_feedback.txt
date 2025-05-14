@@ -1,0 +1,14 @@
+
+# Layman Feedback (Anil, Maritime Expert)
+
+Ahoy, crew! This is Anil, your captain. I'm adding my thoughts here as we build GitBuddy-AI, so you can make it even better for laymen like me.
+
+- The project feels like a ship's control panel, which I love! The dashboard (app.py) is simple to use.
+- I'd like bigger buttons on the dashboard to make it easier to press, like big ship controls.
+- Maybe add a ship's horn sound when I click "Start" to make it more fun?
+
+# Developer Comment: Initial feedback from Anil to guide UI improvements.
+# Layman Comment: My notes for the crew to make the ship better, Anil.
+
+- Tested the dashboard on May 14, 2025. It seems fine and easy to use, like a captain giving orders. The prompt "Enter project:" feels good.
+- The text area could be bigger to make typing easier, like a larger captain's logbook.
