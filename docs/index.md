@@ -92,3 +92,11 @@ We’ve brainstormed a strategy to integrate the AG-UI protocol across GitBuddy,
 
 # Developer Comment: Strategy for Bhargavi and Indra to implement AG-UI features.
 # Layman Comment: A plan for the crew to make the ship smarter and easier to use, Anil.
+
+
+## Virtual Environment and Testing Recommendations (May 14, 2025)
+
+- **Virtual Environment**: Dependencies (e.g., Streamlit, PyGithub) are currently installed globally on Anil’s laptop. When Bhargavi and Indra start on May 21, 2025, set up a virtual environment to isolate dependencies and avoid conflicts. Steps: Use `python -m venv venv`, activate it (`venv\Scripts\activate` on Windows), and install dependencies (`pip install -r requirements.txt`).
+- **Tests**: The project lacks formal tests. Currently, Anil is manually testing the UI with test_ui_with_inputs.py. Bhargavi and Indra should create unit tests using pytest to automate testing of the UI (src/ui/app.py) and scripts (e.g., append_feedback.py). Example: Test if the UI loads and the Start button works.
+
+# Developer Comment: Recommendations for Bhargavi/Indra to set up virtual environment and tests.
