@@ -1,0 +1,6 @@
+# Developer Comment: Dependencies. Bhargavi to add LangChain, FastAPI.
+# Layman Comment: Tools for ship.
+gitpython==3.1.43
+streamlit==1.38.0
+ollama==0.3.12
+pygithub==2.4.0
