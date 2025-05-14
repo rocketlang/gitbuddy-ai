@@ -1,0 +1,63 @@
+
+# GitBuddy-AI Project Prompt (Version 1.0.1)
+
+## Project Name
+GitBuddy-AI
+
+## Version
+1.0.1 (Updated May 14, 2025)
+
+## Objective
+Create a GitHub repository (`https://github.com/rocketlang/gitbuddy-ai`) to automate GitHub project setup and management with 98% AI-driven tasks and 2% layman input, integrating with **CyberShield-Easy** and **RocketAutomation**. Enhance with AG-UI protocol for modular, self-adaptive features.
+
+## Core Features (Updated with AG-UI)
+- **Repo Creation**: AI creates GitHub repo with predefined structure.
+- **File Population**: Generates minimal files (workflow, UI, AI logic, logs, docs).
+- **Layman UI**: Streamlit dashboard with maritime-inspired prompts, powered by AG-UI for real-time interaction.
+- **Self-Suring**: AG-UI monitors AI outputs for reliability.
+- **Self-Healing**: AG-UI auto-corrects errors using user feedback.
+- **Self-Evolving**: AG-UI learns from user interactions to improve AI outputs.
+- **AI-Agnostic**: Portable data for LLMs (Ollama, Grok).
+
+## AG-UI Integration (New Methodology)
+- **Modular Components**: Shared streaming chat widget, event handler hub, training data collector.
+- **LLM-Driven Training**: Captures user interactions (e.g., commit message edits) via AG-UI events for fine-tuning.
+- **Self-Adaptive Features**: Self-suring/healing/evolving driven by AG-UI event feedback loop.
+- **Training Data Reuse**: JSONL format for cross-project sharing with Rocketlang, Cybershield.
+
+## Files Needed
+- `.github/workflows/setup.yml`: Basic GitHub Action workflow.
+- `src/ui/app.py`: Streamlit UI with AG-UI integration.
+- `src/ai_engine/spec_gen.py`: AI-driven spec generation placeholder.
+- `data/training.jsonl`: Training data for LLMs.
+- `logs/app.log`: Log file for runtime/errors.
+- `logs/health_metrics.log`: Self-suring metrics.
+- `logs/healing_actions.log`: Self-healing actions.
+- `docs/index.md`: Developer guide.
+- `docs/layman_guide.md`: Layman guide (to be created).
+- `requirements.txt`: Python dependencies.
+- `README.md`: Layman-friendly overview and setup.
+
+## Requirements
+- Hardcode project name `GitBuddy-AI for CyberShield-Easy`, repo URL `https://github.com/rocketlang/gitbuddy-ai`.
+- Python script (`init_gitbuddy.py`) with no user input.
+- Include developer/layman comments (maritime analogies).
+- Cross-platform (Windows/Ubuntu), free/open-source, within ₹6000/month.
+- Error-proof with clear troubleshooting.
+- Hardware: 12–16GB RAM laptops, 50 Mbps broadband.
+
+## Constraints
+- Minimal input, Windows-compatible, avoid complex YAML/Markdown.
+- Budget: ₹6000/month, using existing hardware.
+
+## Team
+- Anil (layman, maritime expert).
+- Bhargavi (junior, Odoo-trained, joins May 21, 2025).
+- Indra (senior, Odoo-trained, joins May 21, 2025).
+
+## Timeline
+- Start: May 14, 2025.
+- Initial setup complete: May 21, 2025.
+
+## Layman Comment
+This is your ship’s voyage plan, Anil, now with a smarter crew (AG-UI) that learns and fixes itself to make your journey easier!
