@@ -1,0 +1,11 @@
+# AI-generated workflow
+# Developer Comment: Initializes repo. Bhargavi to add CI/CD.
+# Layman Comment: Checklist for ship's deck.
+name: Setup
+on: [push]
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir -p src data
